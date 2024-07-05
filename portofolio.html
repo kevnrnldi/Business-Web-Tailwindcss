@@ -1,0 +1,114 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--header section-->
+    <header class="bg-gray-900 sticky top-0">
+      <nav
+        class="text-white w-11/12 md:container mx-auto py-5 flex justify-between items-center"
+      >
+        <a href="index.html" class="text-3xl font-semibold">TechTOP</a>
+        <ul
+          class="menu hidden md:flex md:bg-gray-900 md:relative md:top-0 md:divide-y-0 md:w-auto"
+        >
+          <li class="px-7 py-1 hover:text-yellow-300">
+            <a href="service.html"> Service</a>
+          </li>
+          <li class="px-7 py-1 hover:text-yellow-300">
+            <a href="portofolio.html">Portofolio</a>
+          </li>
+          <li class="px-7 py-1 hover:text-yellow-300">
+            <a href="about.html">About</a>
+          </li>
+          <li class="px-7 py-1 hover:text-yellow-300 md:hover:text-white">
+            <a
+              href="#"
+              class="md:border-2 md:border-red-500 md:py-2 md:px-5 md:rounded-xl md:hover:bg-red-500 text-white"
+              >Getting Started</a
+            >
+          </li>
+        </ul>
+        <button class="hamburger-menu text-2xl md:hidden">
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </nav>
+    </header>
+
+    <!-- portofolio section -->
+    <section id="portofolio" class="py-16 bg-white">
+      <h3 class="text-5xl font-bold text-center mb-5">Portofolio</h3>
+      <p class="text-gray-500 mb-5 text-center">
+        Beberapa website buatan kami sebagai tanda bahwa jasa yang kami tawarkan
+        sudah digunakan dibanyak perusahaan.
+      </p>
+      <div
+        class="md:grid-cols-4 md:container w-11/12 grid-cols-2 grid container mx-auto gap-6"
+      >
+        <div class="shadow-xl">
+          <a href="#">
+            <img src="https://placehold.co/600x400" alt="" class="w-full" />
+            <div class="py-3 px-5">
+              <h4 class="text-center font-bold">Website 1</h4>
+            </div>
+          </a>
+        </div>
+        <div class="shadow-xl">
+          <a href="#">
+            <img src="https://placehold.co/600x400" alt="" class="w-full" />
+            <div class="py-3 px-5">
+              <h4 class="text-center font-bold">Website 2</h4>
+            </div>
+          </a>
+        </div>
+        <div class="shadow-xl">
+          <a href="#">
+            <img src="https://placehold.co/600x400" alt="" class="w-full" />
+            <div class="py-3 px-5">
+              <h4 class="text-center font-bold">Website 3</h4>
+            </div>
+          </a>
+        </div>
+        <div class="shadow-xl">
+          <a href="#">
+            <img src="https://placehold.co/600x400" alt="" class="w-full" />
+            <div class="py-3 px-5">
+              <h4 class="text-center font-bold">Website 4</h4>
+            </div>
+          </a>
+        </div>
+        <div class="shadow-xl">
+          <a href="#">
+            <img src="https://placehold.co/600x400" alt="" class="w-full" />
+            <div class="py-3 px-5">
+              <h4 class="text-center font-bold">Website 5</h4>
+            </div>
+          </a>
+        </div>
+        <div class="shadow-xl">
+          <a href="#">
+            <img src="https://placehold.co/600x400" alt="" class="w-full" />
+            <div class="py-3 px-5">
+              <h4 class="text-center font-bold">Website 6</h4>
+            </div>
+          </a>
+        </div>
+      </div>
+      <footer class="text-center mt-20 font-bold">&copy; 2024 TechTOP</footer>
+    </section>
+    <!--footer section-->
+
+    <script src="script.js"></script>
+  </body>
+</html>
